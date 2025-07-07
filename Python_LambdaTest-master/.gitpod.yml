@@ -1,0 +1,11 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Setup & Install
+    init: pip install -r requirements.txt
+    command: python3 main.py
+
+vscode:
+  extensions:
+    - ms-python.python
